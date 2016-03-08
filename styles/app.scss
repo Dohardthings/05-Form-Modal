@@ -40,9 +40,8 @@ flex-wrap: wrap;
 .parameter {
   display: flex;
   flex-direction: column;
-  margin: $gutter;
+  margin: 0 2rem 2rem 2rem;
   flex-grow: 1;
-  border-bottom: $brand-border;
 }
 .parmeter-top {
   display: flex;
@@ -51,10 +50,13 @@ flex-wrap: wrap;
 .parameter-bottom {
   outline: none;
   min-width: $input-minimum-width;
+  border: 0;
+  border-bottom: $brand-border;
   flex-grow: 1;
   margin-bottom: .5rem;
   margin-top: .5rem;
   font-size: 1.2rem;
+  background: $card-background;
 }
 
 .button {

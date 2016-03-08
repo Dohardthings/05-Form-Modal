@@ -1,25 +1,22 @@
 body {
   background: url('img/bg.png') no-repeat top center fixed;
-    background-size: cover;
-    margin: 0;
-
+  background-size: cover;
+  margin: 0;
 }
-
-::-webkit-input-placeholder {
-   color: red;
+ ::-webkit-input-placeholder {
+  color: red;
 }
-
 header {
-display: flex;
-color: $card-text-color;
-margin-left: 4rem;
+  display: flex;
+  color: $card-text-color;
+  margin-left: 2rem;
+  padding-top: 2rem;
 }
 main {
-margin: $gutter;
+  margin: 0;
 }
-
 footer {
-border-top: $brand-border;
-display: flex;
-justify-content: flex-end;
+  border-top: $brand-border;
+  display: flex;
+  justify-content: flex-end;
 }
