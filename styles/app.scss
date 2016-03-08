@@ -3,4 +3,63 @@
 
 // $fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
 // @import 'font-awesome';
+
+@import 'variables';
+@import 'grid';
+@import 'base';
 @import 'box-sizing';
+
+.modal-container {
+  display: flex;
+  min-height: 100vh;
+  padding: $gutter;
+
+  align-items: center;
+  justify-content: center;
+
+  background: $background-haze;
+  background-position: center center;
+}
+
+
+.card {
+  max-width: 55rem;
+  margin: $gutter;
+  box-shadow: $brand-shadow;
+  background: $card-background;
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+
+color: $label-color;
+}
+.parameter__container {
+display: flex;
+flex-wrap: wrap;
+}
+.parameter {
+  display: flex;
+  flex-direction: column;
+  margin: $gutter;
+  flex-grow: 1;
+  border-bottom: $brand-border;
+}
+.parmeter-top {
+  display: flex;
+  flex-grow: 1;
+}
+.parameter-bottom {
+  outline: none;
+  min-width: $input-minimum-width;
+  flex-grow: 1;
+  margin-bottom: .5rem;
+  margin-top: .5rem;
+
+}
+
+.button {
+background: $button-background;
+margin: $gutter;
+width: 8rem;
+padding: 1rem;
+}
