@@ -12,7 +12,7 @@
   justify-content: center;
   min-height: 100vh;
   padding: $gutter;
-  background: $background-haze;
+  background: $haze;
   background-position: center center;
 }
 
@@ -22,8 +22,8 @@
   flex-wrap: wrap;
   max-width: 60rem;
   margin: $gutter;
-  background: $card-background;
-  color: $label-color;
+  background: $brand-white;
+  color: $brand-light-grey;
   box-shadow: $brand-shadow;
 }
 
@@ -52,7 +52,7 @@
   border: 0;
   border-bottom: $brand-border;
   outline: none;
-  background: $card-background;
+  background: $brand-white;
   font-size: 1.2rem;
 }
 
@@ -61,5 +61,6 @@
   margin: $gutter;
   padding: 1rem;
   border-radius: 0.2rem;
-  background: $button-background;
+  background: $brand-primary;
+  color: $brand-white;
 }

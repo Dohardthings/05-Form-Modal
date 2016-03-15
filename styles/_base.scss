@@ -3,15 +3,16 @@ body {
   background: url('img/bg.png') no-repeat top center fixed;
   background-size: cover;
 }
- ::-webkit-input-placeholder {
-  color: red;
+
+::-webkit-input-placeholder {
+  color: $brand-grey;
 }
 
 header {
   display: flex;
   margin-left: 2rem;
   padding-top: 2rem;
-  color: $card-text-color;
+  color: black;
 }
 
 main {
